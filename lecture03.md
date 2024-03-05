@@ -24,25 +24,45 @@
 - ターミナルで使用するコマンドが多く、覚えるのが大変。
   - ターミナル操作のコマンド
     - ディレクトリの移動
-      'cd dir'
+      '''
+      cd dir
+      '''
     - カレントディレクトリのファイル一覧を表示
-      'ls'
+      '''
+      ls
+      '''
     - ディレクトリの作成
-      'mkdir dirname'
+      '''
+      mkdir dirname
+      '''
     - ファイルの作成
-      'touch new_filename'
+      '''
+      touch new_filename
+      '''
     - ファイルのコピー作成
-      'cp original_file copy_file'
+      '''
+      cp original_file copy_file
+      '''
     - ターミナルのクリア
-      'clear'
+      '''
+      clear
+      '''
     - ファイル内容を1画面ずつ表示
-      'less filename'
+      '''
+      less filename
+      '''
   - MySQLサーバーに関するコマンド
-     - MySQLの起動
-      'sudo service mysqld start'
-     - MySQLの停止
-       'sudo service mysqld stop'
-     - MySQLの状態確認
-       'service mysqld status'
+    - MySQLの起動
+      '''
+      sudo service mysqld start
+      '''
+    - MySQLの停止
+      '''
+      sudo service mysqld stop
+      '''
+    - MySQLの状態確認
+      '''
+      service mysqld status
+      '''
 - errorがでたときの対処に苦戦した。
 - スムーズにデプロイできるように反復練習が必要。
