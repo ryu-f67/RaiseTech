@@ -65,8 +65,7 @@ $ yarn -v
 ```
 - サンプルアプリケーションをクローン
 ```sh
-$ git clone https://github.com/yuta-ushijima/raisetech-live8-sample-app.git
-```
+$ git clone "sample_application"
 - インスタンス作成初期からインストールされているMariaDB用パッケージを削除する
 ```sh
 # mariaDBを削除しておかないとmysql動作時エラーが生じる

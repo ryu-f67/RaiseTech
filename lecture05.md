@@ -1,6 +1,6 @@
 # 第5回課題
 
-## EC2上に[サンプルアプリケーション](https://github.com/yuta-ushijima/raisetech-live8-sample-app)をデプロイ
+## EC2上にサンプルアプリケーションをデプロイ
 
 ### 1.組み込みサーバーだけで動作
   ![組み込みサーバー](images/lecture05imgs/embedded_web_server.png)
