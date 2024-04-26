@@ -80,7 +80,7 @@ $ sudo systemctl start nginx
 $ sudo systemctl status nginx
 ```
 - nginxの起動を確認(EC2のパブリックIPでブラウザにアクセス)
-![Nginx起動確認](images/memo_imgs/startNginx.png)
+![Nginx起動確認](memo_imgs/startNginx.png)
 
 
 ### Nginxのコマンドまとめ
@@ -125,4 +125,4 @@ $ sudo cat /etc/nginx/nginx.conf
 /var/log/nginx/access.log
 ```
  - アクセスログの内容は設定ファイルのログフォーマットに記載された項目が表示される
- ![Nginxのログフォーマット](images/memo_imgs/Nginx_setup_file.png)
+ ![Nginxのログフォーマット](memo_imgs/Nginx_setup_file.png)
