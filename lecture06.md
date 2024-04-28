@@ -96,18 +96,18 @@ AWS利用料の見積もり [URL](https://calculator.aws/#/estimate?id=6931555d5
   
 ## 4.マネジメントコンソールから現在の利用料を確認
 - 請求のページから現在の利用料金を確認した。(2024.4.28)  
-      EC2の起動時間は750時間以下であり無料枠で収まったが、EBSが無料枠の30GBを超えたため料金が発生している。  
-      また、VPCのpublic IPv4 addressの使用でも料金が発生している。  
-      ![コスト](images/lecture06imgs/20240428_cost.png)  
-      ![請求詳細(1)](images/lecture06imgs/20240428_costdetail(1).png)  
-      ![請求詳細(2)](images/lecture06imgs/20240428_costdetail(2).png)  
+        EC2の起動時間は750時間以下であり無料枠で収まったが、EBSが無料枠の30GBを超えたため料金が発生している。  
+        また、VPCのpublic IPv4 addressの使用でも料金が発生している。  
+        ![コスト](images/lecture06imgs/20240428_cost.png)  
+        ![請求詳細(1)](images/lecture06imgs/20240428_costdetail(1).png)  
+        ![請求詳細(2)](images/lecture06imgs/20240428_costdetail(2).png)  
 
     金額は発生しているがAWSクレジットから消費されるため、合計税額は USD 0.00 になっている。
 
 - 請求のページから先月(2024.03)のEC2の利用料金を確認した。  
-      EC2の起動時間は750時間以下であり無料枠で収まっている。  
-      また、EBSも無料枠の30GBを下回っているため無料枠で収まっており、料金がかかっていない。  
-      ![請求詳細(先月)](images/lecture06imgs/202403_costdetail.png)  
+        EC2の起動時間は750時間以下であり無料枠で収まっている。  
+        また、EBSも無料枠の30GBを下回っているため無料枠で収まっており、料金がかかっていない。  
+        ![請求詳細(先月)](images/lecture06imgs/202403_costdetail.png)  
   
   
 ## 5.課題に取り組んで感じたこと
