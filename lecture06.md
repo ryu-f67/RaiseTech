@@ -7,8 +7,8 @@
     "userIdentity": {
         "type": "IAMUser",
         "principalId": "AIDA3FLDXL62UQIY5ZCVG",
-        "arn": "arn:aws:iam::767397683125:user/RYUYA_RT",
-        "accountId": "767397683125",
+        "arn": "arn:aws:iam::XXXXXXXXXXXX:user/RYUYA_RT",
+        "accountId": "XXXXXXXXXXXX",
         "accessKeyId": "ASIA3FLDXL62RLOESRNZ",
         "userName": "RYUYA_RT",
         "sessionContext": {
@@ -57,7 +57,7 @@
     "readOnly": false,
     "eventType": "AwsApiCall",
     "managementEvent": true,
-    "recipientAccountId": "767397683125",
+    "recipientAccountId": "XXXXXXXXXXXX",
     "eventCategory": "Management",
     "tlsDetails": {
         "tlsVersion": "TLSv1.3",
