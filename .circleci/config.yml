@@ -1,14 +1,18 @@
 version: 2.1
+orbs:
+  python: circleci/python@2.0.3
 jobs:
-  test:
-    docker:
-      - image: circleci/ruby:2.6.3-stretch-node
+  cfn-lint:
+    executor: python/default
     steps:
       - checkout
+      - run: pip install cfn-lint
       - run:
-          name: echo
-          command: echo "Hello, world!!"
+          name: run cfn-lint
+          command: |
+            cfn-lint -i W3002 -t cloudformation/*.yml
+
 workflows:
-  test_workflow:
+  raisetech:
     jobs:
-      - test
+      - cfn-lint
