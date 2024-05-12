@@ -126,7 +126,7 @@ Resources:
       AllocatedStorage: 20
       AllowMajorVersionUpgrade: false
       AutoMinorVersionUpgrade: false
-      AvailabilityZone: ap-northeast-1a
+      AvailabilityZone: !Select [0, !GetAZs ""]
       BackupRetentionPeriod: 0
       DBInstanceClass: db.t3.micro
       DBInstanceIdentifier: !Ref DBid
