@@ -70,7 +70,7 @@ Resources:
   PublicSubnetA:
     Type: AWS::EC2::Subnet
     Properties:
-      AvailabilityZone: ap-northeast-1a
+      AvailabilityZone: !Select [0, !GetAZs ""]
       CidrBlock: !Ref PublicSubnetACIDR
       MapPublicIpOnLaunch: true
       Tags: 
@@ -81,7 +81,7 @@ Resources:
   PublicSubnetC:
     Type: AWS::EC2::Subnet
     Properties:
-      AvailabilityZone: ap-northeast-1c
+      AvailabilityZone: !Select [1, !GetAZs ""]
       CidrBlock: !Ref PublicSubnetCCIDR
       MapPublicIpOnLaunch: true
       Tags:
@@ -93,7 +93,7 @@ Resources:
   PrivateSubnetA:
     Type: AWS::EC2::Subnet
     Properties:
-      AvailabilityZone: ap-northeast-1a
+      AvailabilityZone: !Select [0, !GetAZs ""]
       CidrBlock: !Ref PrivateSubnetACIDR
       MapPublicIpOnLaunch: false
       Tags:
@@ -104,7 +104,7 @@ Resources:
   PrivateSubnetC:
     Type: AWS::EC2::Subnet
     Properties:
-      AvailabilityZone: ap-northeast-1c
+      AvailabilityZone: !Select [1, !GetAZs ""]
       CidrBlock: !Ref PrivateSubnetCCIDR
       MapPublicIpOnLaunch: false
       Tags:
