@@ -29,13 +29,13 @@ $ cd ..
 ```
 - rubyに必要なパッケージをインストール
 ```sh
-$ sudo yum -y install gcc-c++ glibc-headers openssl-devel readline libyaml-devel 	readline-devel zlib zlib-devel libffi-devel libxml2 libxslt libxml2-devel libxslt-devel 	sqlite-devel
+$ sudo yum -y install gcc-c++ glibc-headers openssl-devel readline libyaml-devel readline-devel zlib zlib-devel libffi-devel libxml2 libxslt libxml2-devel libxslt-devel sqlite-devel
 ```
 - rbenvでバージョン(x.x.x)を指定してRubyをインストール
 ```sh
 $ rbenv install x.x.x
 $ rbenv global x.x.x
-$ rbenv -v
+$ ruby -v
 ```
 - Bundlerをバージョン(x.x.x)を指定してインストール
 ```sh
