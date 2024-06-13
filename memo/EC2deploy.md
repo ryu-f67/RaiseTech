@@ -54,13 +54,13 @@ $ source ~/.bashrc
 ```
 - Node.jsをバージョン(x.x.x)を指定してインストール
 ```sh
-$ nvm install 17.9.1
+$ nvm install x.x.x
 $ node -v
 ```
 - yarnをバージョン(x.x.x)を指定してインストール
 ```sh
 # npmはnvmインストール時にインストールされている
-$ npm install -global yarn@1.22.19
+$ npm install -global yarn@x.x.x
 $ yarn -v
 ```
 - サンプルアプリケーションをクローン
@@ -74,7 +74,7 @@ $ sudo yum remove -y mariadb-*
 ```
 - MySQLのリポジトリをyumに追加
 ```sh
-$ sudo yum localinstall -y 	https://dev.mysql.com/get/mysql80-community-release-el7-11.noarch.rpm
+$ sudo yum localinstall -y https://dev.mysql.com/get/mysql80-community-release-el7-11.noarch.rpm
 ```
 - MySQLに必要なパッケージを取得
 ```sh
@@ -118,7 +118,7 @@ mysql> FLUSH PRIVILEGES;
 ```
 - サンプルアプリへディレクトリの移動
 ```sh
-$ cd ./raisetech-live8-sample-app
+$ cd ./sample_application
 ```
 - データベースの編集
 ```sh
