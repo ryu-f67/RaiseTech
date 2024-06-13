@@ -118,7 +118,7 @@ mysql> FLUSH PRIVILEGES;
 ```
 - サンプルアプリへディレクトリの移動
 ```sh
-$ cd ./raisetech-live8-sample-app
+$ cd ./sample_application
 ```
 - データベースの編集
 ```sh
