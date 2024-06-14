@@ -1,9 +1,9 @@
 # RaiseTech AWSコース
 ## 概要
-### CRUD処理を行うRailsアプリケーションを稼働させるインフラストラクチャの自動構築を行う。
+### Railsアプリケーションを稼働させるインフラストラクチャの自動構築を行う。
 
 ## 自動構築の流れ
-CircleCIを使用して次のようにインフラストラクチャを自動構築した。([**第13回課題用リポジトリ**](https://github.com/ryu-f67/AWS_lecture13.git)参照)
+CircleCIを使用して次のようにインフラストラクチャを自動構築した。([**第13回課題用リポジトリ参照**](https://github.com/ryu-f67/AWS_lecture13.git))
 1. CloudFormationでVPC・EC2・RDS・ALB・S3のAWS環境を自動構築
 2. Ansibleでサーバーの構成をコード化し、サーバー構築とアプリのデプロイを自動化
 3. Serverspecで構築したサーバーに対して自動でテスト
